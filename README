@@ -1,0 +1,30 @@
+Nautilus Optirun
+=================
+
+This module adds a menu item to the nautilus right-click menu which allows to run the selected file via optirun just through the right-clicking.
+
+Build Requirements
+-------------------
+
+The following packages are required to make it work:
+
+- nautilus
+- python-nautilus
+
+Installing
+-----------
+	make install
+	killall nautilus
+
+Usage
+------
+
+Right-click on a (application) file and select 'Run via optirun'.
+
+Clean
+------
+	make clean
+
+Uninstall
+----------
+	make uninstall
