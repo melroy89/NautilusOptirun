@@ -13,7 +13,7 @@ The following packages are required to make it work:
 
 Installing
 -----------
-	make install
+	sudo make install
 	killall nautilus
 
 Usage
@@ -27,4 +27,4 @@ Clean
 
 Uninstall
 ----------
-	make uninstall
+	sudo make uninstall
